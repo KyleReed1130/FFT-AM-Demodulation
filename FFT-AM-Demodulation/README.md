@@ -10,7 +10,7 @@ This MATLAB project demonstrates how to recover audio from an AM-modulated signa
 - **Synthetic dataset support**: If no dataset is present, the script auto-generates a synthetic AM signal for testing.  
 
 ## Files
-- `exam_q1_demod.m` — Main decoder script (loads `.mat` or generates one).  
+- `fft_am_demod.m` — Main decoder script (loads `.mat` or generates one).  
 - `gen_synth_am.m` — Creates a synthetic AM dataset (`Question_01.mat`).  
 - `.gitignore` — Excludes `.mat` files from Git.  
 - `LICENSE` — MIT license.  
@@ -20,7 +20,7 @@ This MATLAB project demonstrates how to recover audio from an AM-modulated signa
 2. Open MATLAB in the project folder.  
 3. Run:  
    ```matlab
-   run("exam_q1_demod.m")
+   run("fft_am_demod.m")
    ```
    - If `Question_01.mat` exists, it will be used.  
    - Otherwise, `gen_synth_am.m` generates a synthetic AM dataset automatically.  
