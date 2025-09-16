@@ -1,0 +1,12 @@
+# MATLAB
+*.asv
+*.m~ 
+*.mlx
+*.fig
+*.mat        # hide datasets (including Question_01.mat)
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
